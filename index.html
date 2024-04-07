@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="ri-heart-pulse-fill"></i>
+                </div>
+                <div class="title">
+                    <h4>
+                        Now playing
+                    </h4>
+                </div>
+                <div class="circle"><i class="ri-add-circle-fill"></i></div>
+
+
+                <div></div>
+            </nav>
+            <img src="./Images/main.avif" alt="music img" class="song-img">
+            <h1>Chill with me</h1>
+            <p>ft. Tubebackr</p>
+            <audio src="./musicplayer/audio/love.mp4" id="song">
+                <source type="audio/mp4">
+            </audio>
+            <input type="range" name="" value="0" id="progress">
+            <div class="controls">
+                <div>
+                    <i class="ri-skip-back-fill"></i>
+                </div>
+                <div id="play-pause">
+                    <i class="fa-play ri-play-circle-fill" id="action"></i>
+                </div>
+                <div>
+                    <i class="ri-arrow-right-circle-fill"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
